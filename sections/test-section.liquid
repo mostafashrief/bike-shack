@@ -1,0 +1,58 @@
+<div class="custom-text-section">
+    <p>{{ section.settings.custom_text }}</p>
+  </div>
+  
+  <style>
+  .custom-text-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+  }
+  .custom-text-section p {
+    font-size: 18px;
+    color: #333;
+  }
+  </style>
+
+
+
+
+{% schema %}
+    {
+      "name": "Custom Text Section",
+      "settings": [
+        {
+          "type": "text",
+          "id": "custom_text",
+          "label": "Custom Text",
+          "default": "Default text here"
+        }
+      ],
+      "presets": [
+        {
+          "name": "Default",
+          "category": "Custom Sections",
+          "settings": {
+            "custom_text": "Preset Text 1"
+          }
+        },
+        {
+          "name": "Example Preset 2",
+          "category": "Custom Sections",
+          "settings": {
+            "custom_text": "Preset Text 2"
+          }
+        },
+        {
+          "name": "Example Preset 3",
+          "category": "Custom Sections",
+          "settings": {
+            "custom_text": "Preset Text 3"
+          }
+        }
+      ]
+    }
+    {% endschema %}
+    
+   
+    
