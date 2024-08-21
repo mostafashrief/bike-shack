@@ -49,7 +49,7 @@ class CartDrawer extends HTMLElement {
     // *** custom code
     const drawerHeading = this.querySelector('.drawer__heading');
     setTimeout(function(){
-      drawerHeading.style.color = 'red';
+      drawerHeading.style.color = 'white';
     }, 3000);
     setTimeout(function(){
       drawerHeading.style.color = 'white';
