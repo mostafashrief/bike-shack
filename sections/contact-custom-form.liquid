@@ -85,7 +85,8 @@
             <input type="checkbox" id="businessAccount" name="contact[Business account]">
           </label>
         </div>
-        <div id="companyInfo" class="field">
+
+        <div id="companyInfo" class="field hidden">
           <input
             type="text"
             id="companyName"
@@ -93,6 +94,7 @@
             value=""
             placeholder="Company Name"
           >
+        
           <label class="field__label" for="companyName">Company Name</label>
         </div>
       </div>
@@ -171,7 +173,7 @@
         </select>
       </div>
 
-      <div id="productNameField" class="field">
+      <div id="productNameField" class="field hidden">
         <input
           type="text"
           id="product-name"
@@ -182,7 +184,7 @@
         <label class="field__label" for="product-name">Product name</label>
       </div>
 
-      <div id="orderNumberField" class="field">
+      <div id="orderNumberField" class="field hidden">
         <input
           type="number"
           id="order-number"
