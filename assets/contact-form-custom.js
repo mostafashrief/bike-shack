@@ -17,9 +17,11 @@
     contactReasons.addEventListener('change', (event) => {
         if (contactReasons.value === 'product') {
             productName.classList.remove('hidden');
+            orderNumber.classList.add('hidden');
         }
         else if (contactReasons.value === 'order') {
             orderNumber.classList.remove('hidden');
+            productName.classList.add('hidden');
         }
     });
     
