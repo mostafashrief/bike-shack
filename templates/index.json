@@ -334,6 +334,88 @@
       "settings": {
         "custom_text": "Hello helloo every body -"
       }
+    },
+    "custom_testimonials_slider_ydcWTd": {
+      "type": "custom-testimonials-slider",
+      "blocks": {
+        "column_UniWb8": {
+          "type": "column",
+          "settings": {
+            "title": "Road bike",
+            "text": "<p>I recently bought a road bike from Bike Shack and I'm absolutely in love with it! The staff were incredibly helpful, guiding me to the perfect bike for my needs. It rides like a dream, and I've been able to hit all my fitness goals. Thanks, Bike Shack, for such a fantastic experience!<\/p>",
+            "image": "shopify:\/\/shop_images\/woman-1.jpg",
+            "name": "Sophia",
+            "star_rating": 5
+          }
+        },
+        "column_zJbWnt": {
+          "type": "column",
+          "settings": {
+            "title": "Hybrid bike",
+            "text": "<p>I picked up a hybrid bike from Bike Shack last month, and it's been awesome. It's super versatile—great for both my daily commute and some fun on the trails. The quality is top-notch and the price was right. Definitely recommending Bike Shack to all my friends!<\/p>",
+            "image": "shopify:\/\/shop_images\/man-1.jpg",
+            "name": "Ethan",
+            "star_rating": 5
+          }
+        },
+        "column_MJPE4e": {
+          "type": "column",
+          "settings": {
+            "title": "Mountain bike",
+            "text": "<p>I was searching for a durable mountain bike and found exactly what I needed at Bike Shack. The bike handles beautifully on rough trails and has really taken my weekend adventures to a new level. Super impressed with both the product and the service!<\/p>",
+            "image": "shopify:\/\/shop_images\/woman-2.jpg",
+            "name": "Isabella",
+            "star_rating": 3.5
+          }
+        },
+        "column_9H6VgQ": {
+          "type": "column",
+          "settings": {
+            "title": "Hybrid bike",
+            "text": "<p>I picked up a hybrid bike from Bike Shack last month, and it's been awesome. It's super versatile—great for both my daily commute and some fun on the trails. The quality is top-notch and the price was right. Definitely recommending Bike Shack to all my friends!<\/p>",
+            "image": "shopify:\/\/shop_images\/man-2.jpg",
+            "name": "Ethan",
+            "star_rating": 5
+          }
+        },
+        "column_VR4Q8a": {
+          "type": "column",
+          "settings": {
+            "title": "Road bike",
+            "text": "<p>I recently bought a road bike from Bike Shack and I'm absolutely in love with it! The staff were incredibly helpful, guiding me to the perfect bike for my needs. It rides like a dream, and I've been able to hit all my fitness goals. Thanks, Bike Shack, for such a fantastic experience!<\/p>",
+            "image": "shopify:\/\/shop_images\/woman-3.jpg",
+            "name": "Marketing Manage",
+            "star_rating": 4.5
+          }
+        },
+        "column_9y8PUz": {
+          "type": "column",
+          "settings": {
+            "title": "Hybrid bike",
+            "text": "<p>I picked up a hybrid bike from Bike Shack last month, and it's been awesome. It's super versatile—great for both my daily commute and some fun on the trails. The quality is top-notch and the price was right. Definitely recommending Bike Shack to all my friends!<\/p>",
+            "image": "shopify:\/\/shop_images\/man-3.jpg",
+            "name": "Ethan",
+            "star_rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "column_UniWb8",
+        "column_zJbWnt",
+        "column_MJPE4e",
+        "column_9H6VgQ",
+        "column_VR4Q8a",
+        "column_9y8PUz"
+      ],
+      "settings": {
+        "caption_text": "Testimonials",
+        "title": "What Our Customers Say",
+        "auto_play": 5,
+        "color_scheme": "",
+        "content_background_color": "#313131",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -345,6 +427,7 @@
     "multicolumn_QzYWQM",
     "featured_collection_6frfxg",
     "featured_blog_br3dte",
-    "test_section_H8GrrB"
+    "test_section_H8GrrB",
+    "custom_testimonials_slider_ydcWTd"
   ]
 }
