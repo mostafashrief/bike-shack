@@ -46,17 +46,16 @@ function displayQuestion(index) {
   let selected_answer = answers[current_question.name] || '';
 
   let question_html = `
-  <form id="quizForm">
     <h2>${current_question.text}</h2>
-    <div>
+    <div class="label-container">
       ${current_question.options.map((option) => `
         <input ${option.value === selected_answer ? "checked" : "" } type="radio" id="${option.value}" name="${current_question.name}" value="${option.value}">
-        <label for="${option.value}">
-          <div class="img-wrap">
-            <img src="${option.img}" style="height: 300px;">
-          </div>
-          <span>${option.label}</span>
-        </label>
+          <label for="${option.value}">
+            <div class="img-wrap">
+              <img src="${option.img}" style="height: 300px;">
+            </div>
+            <span>${option.label}</span>
+          </label>
       `).join('')}
     </div>
   </form>
