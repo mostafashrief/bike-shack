@@ -1,9 +1,22 @@
-// initialize slideshow
+document.addEventListener("DOMContentLoaded", function() {
 
-// config:
-// assume there is just one single slider on the page
-// navigation dots should be disabled
-// no autoplay
-// infinite loop
-// the slides or cells should be aligned to the left side on initialization.
-// pauseAutoPlayOnHover: false
+  const slideshowContainers = document.querySelectorAll(".testimonial-slider");
+
+  slideshowContainers.forEach((slideshowContainer) => {
+  
+    let autoplayValue = slideshowContainer.getAttribute("data-autoplay");
+    if (autoplayValue === "false") {
+      autoplayValue = false; 
+    } else {
+      autoplayValue = parseInt(autoplayValue, 10); 
+    }
+
+    const slider = new Flickity(slideshowContainer, {
+      cellAlign: "left", 
+      wrapAround: true, 
+      autoPlay: autoplayValue, 
+      pageDots: false, 
+      pauseAutoPlayOnHover: false, 
+    });
+  });
+});

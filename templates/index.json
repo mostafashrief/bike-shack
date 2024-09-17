@@ -1,12 +1,3 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "sections": {
     "image-with-text": {
@@ -335,10 +326,7 @@
         "custom_text": "Hello helloo every body -"
       }
     },
-    "custom_testimonials_slider_ydcWTd": {
-      "type": "custom-testimonials-slider",
-      "blocks": {
-        "column_UniWb8": {
+
           "type": "column",
           "settings": {
             "title": "Road bike",
@@ -348,7 +336,7 @@
             "star_rating": 5
           }
         },
-        "column_zJbWnt": {
+
           "type": "column",
           "settings": {
             "title": "Hybrid bike",
@@ -358,7 +346,7 @@
             "star_rating": 5
           }
         },
-        "column_MJPE4e": {
+
           "type": "column",
           "settings": {
             "title": "Mountain bike",
@@ -368,7 +356,7 @@
             "star_rating": 3.5
           }
         },
-        "column_9H6VgQ": {
+
           "type": "column",
           "settings": {
             "title": "Hybrid bike",
@@ -378,7 +366,7 @@
             "star_rating": 5
           }
         },
-        "column_VR4Q8a": {
+
           "type": "column",
           "settings": {
             "title": "Road bike",
@@ -388,7 +376,7 @@
             "star_rating": 4.5
           }
         },
-        "column_9y8PUz": {
+
           "type": "column",
           "settings": {
             "title": "Hybrid bike",
@@ -400,12 +388,7 @@
         }
       },
       "block_order": [
-        "column_UniWb8",
-        "column_zJbWnt",
-        "column_MJPE4e",
-        "column_9H6VgQ",
-        "column_VR4Q8a",
-        "column_9y8PUz"
+
       ],
       "settings": {
         "caption_text": "Testimonials",
@@ -428,6 +411,6 @@
     "featured_collection_6frfxg",
     "featured_blog_br3dte",
     "test_section_H8GrrB",
-    "custom_testimonials_slider_ydcWTd"
+
   ]
 }
