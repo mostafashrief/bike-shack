@@ -2,7 +2,7 @@
 {{- 'flickity.css' | asset_url | stylesheet_tag -}}
 <script src="{{ 'flickity.pkgd.min.js' | asset_url }}" defer="defer"></script>
 {{- 'custom-testimonials-slider.css' | asset_url | stylesheet_tag -}}
-<script src="{{ 'custom-testimonials-slider.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'custom-testimonials-slider.js' | asset_url }}" type="module" defer="defer"></script>
 
 <style>
   .custom-testimonials-{{ section.id }} {
