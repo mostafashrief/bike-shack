@@ -326,10 +326,7 @@
         "custom_text": "Hello helloo every body -"
       }
     },
-    "custom_testimonials_slider_cec8gP": {
-      "type": "custom-testimonials-slider",
-      "blocks": {
-        "column_GXPDkD": {
+
           "type": "column",
           "settings": {
             "title": "Road bike",
@@ -339,7 +336,7 @@
             "star_rating": 5
           }
         },
-        "column_UBwgFq": {
+
           "type": "column",
           "settings": {
             "title": "Hybrid bike",
@@ -349,7 +346,7 @@
             "star_rating": 5
           }
         },
-        "column_BBTR88": {
+
           "type": "column",
           "settings": {
             "title": "Mountain bike",
@@ -359,7 +356,7 @@
             "star_rating": 3.5
           }
         },
-        "column_RTyT3g": {
+
           "type": "column",
           "settings": {
             "title": "Hybrid bike",
@@ -369,7 +366,7 @@
             "star_rating": 5
           }
         },
-        "column_rB4HQ3": {
+
           "type": "column",
           "settings": {
             "title": "Road bike",
@@ -379,7 +376,7 @@
             "star_rating": 4.5
           }
         },
-        "column_rLFPrm": {
+
           "type": "column",
           "settings": {
             "title": "Hybrid bike",
@@ -391,12 +388,7 @@
         }
       },
       "block_order": [
-        "column_GXPDkD",
-        "column_UBwgFq",
-        "column_BBTR88",
-        "column_RTyT3g",
-        "column_rB4HQ3",
-        "column_rLFPrm"
+
       ],
       "settings": {
         "caption_text": "Testimonials",
@@ -419,6 +411,6 @@
     "featured_collection_6frfxg",
     "featured_blog_br3dte",
     "test_section_H8GrrB",
-    "custom_testimonials_slider_cec8gP"
+
   ]
 }
