@@ -346,11 +346,30 @@
       };
     </script>
 
-    {%- if settings.predictive_search_enabled -%}
-      <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
-    {%- endif -%}
-    
-    {% comment %} *** custom script for video tracking {% endcomment %}
-    <script src="{{ 'custom-tracking-video.js' | asset_url }}" defer="defer"></script>
-  </body>
+{%- if settings.predictive_search_enabled -%}
+  <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
+{%- endif -%}
+
+{% comment %} *** custom script for video tracking {% endcomment %}
+<script src="{{ 'custom-tracking-video.js' | asset_url }}" defer="defer"></script>
+
+
+{% if template contains 'product' %}
+  <script>
+    console.log("Script added!");
+    document.addEventListener("afterVariantChange", handleVariantChange)
+
+    function handleVariantChange (event){
+      console.log("new variant:", event.detail.newVariant)
+    }
+
+  </script>
+  {% endif %}
+
+  
+
+  <script>
+    console.log("test");
+  </script>
+    </body>
 </html>
